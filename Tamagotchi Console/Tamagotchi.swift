@@ -41,6 +41,10 @@ class Tamagotchi {
         weight += 1
     }
     
+    func sleep() {
+        awake = false
+    }
+    
     func playGame() {
         weight -= 1
         happiness += 1
