@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EDF5A2B12B0CC04A0006E49F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5A2B02B0CC04A0006E49F /* main.swift */; };
+		EDF5A2B82B0CC0800006E49F /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5A2B72B0CC0800006E49F /* Tamagotchi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDF5A2AD2B0CC04A0006E49F /* Tamagochi Console */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tamagochi Console"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF5A2AD2B0CC04A0006E49F /* Tamagotchi Console */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tamagotchi Console"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF5A2B02B0CC04A0006E49F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDF5A2B72B0CC0800006E49F /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,7 @@
 		EDF5A2A42B0CC04A0006E49F = {
 			isa = PBXGroup;
 			children = (
-				EDF5A2AF2B0CC04A0006E49F /* Tamagochi Console */,
+				EDF5A2AF2B0CC04A0006E49F /* Tamagotchi Console */,
 				EDF5A2AE2B0CC04A0006E49F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +51,26 @@
 		EDF5A2AE2B0CC04A0006E49F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDF5A2AD2B0CC04A0006E49F /* Tamagochi Console */,
+				EDF5A2AD2B0CC04A0006E49F /* Tamagotchi Console */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDF5A2AF2B0CC04A0006E49F /* Tamagochi Console */ = {
+		EDF5A2AF2B0CC04A0006E49F /* Tamagotchi Console */ = {
 			isa = PBXGroup;
 			children = (
 				EDF5A2B02B0CC04A0006E49F /* main.swift */,
+				EDF5A2B72B0CC0800006E49F /* Tamagotchi.swift */,
 			);
-			path = "Tamagochi Console";
+			path = "Tamagotchi Console";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDF5A2AC2B0CC04A0006E49F /* Tamagochi Console */ = {
+		EDF5A2AC2B0CC04A0006E49F /* Tamagotchi Console */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDF5A2B42B0CC04A0006E49F /* Build configuration list for PBXNativeTarget "Tamagochi Console" */;
+			buildConfigurationList = EDF5A2B42B0CC04A0006E49F /* Build configuration list for PBXNativeTarget "Tamagotchi Console" */;
 			buildPhases = (
 				EDF5A2A92B0CC04A0006E49F /* Sources */,
 				EDF5A2AA2B0CC04A0006E49F /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "Tamagochi Console";
+			name = "Tamagotchi Console";
 			productName = "Tamagochi Console";
-			productReference = EDF5A2AD2B0CC04A0006E49F /* Tamagochi Console */;
+			productReference = EDF5A2AD2B0CC04A0006E49F /* Tamagotchi Console */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDF5A2A82B0CC04A0006E49F /* Build configuration list for PBXProject "Tamagochi Console" */;
+			buildConfigurationList = EDF5A2A82B0CC04A0006E49F /* Build configuration list for PBXProject "Tamagotchi Console" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDF5A2AC2B0CC04A0006E49F /* Tamagochi Console */,
+				EDF5A2AC2B0CC04A0006E49F /* Tamagotchi Console */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF5A2B12B0CC04A0006E49F /* main.swift in Sources */,
+				EDF5A2B82B0CC0800006E49F /* Tamagotchi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDF5A2A82B0CC04A0006E49F /* Build configuration list for PBXProject "Tamagochi Console" */ = {
+		EDF5A2A82B0CC04A0006E49F /* Build configuration list for PBXProject "Tamagotchi Console" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDF5A2B22B0CC04A0006E49F /* Debug */,
@@ -275,7 +279,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDF5A2B42B0CC04A0006E49F /* Build configuration list for PBXNativeTarget "Tamagochi Console" */ = {
+		EDF5A2B42B0CC04A0006E49F /* Build configuration list for PBXNativeTarget "Tamagotchi Console" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDF5A2B52B0CC04A0006E49F /* Debug */,

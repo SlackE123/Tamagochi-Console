@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/slack.e/Documents/Tamagochi Console/Tamagotchi Console.xcodeproj">
    </FileRef>
 </Workspace>
